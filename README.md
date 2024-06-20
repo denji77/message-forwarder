@@ -1,5 +1,5 @@
 # message-forwarder
-~It's kinda old code so dunno if it still works...~
+~It's kinda old code so dunno if it still works...~ WORKS!!
 
 # Running the Bot:
 This Telegram bot allows you to forward messages from one group to another. It's a handy tool for managing communication between different groups on Telegram.
