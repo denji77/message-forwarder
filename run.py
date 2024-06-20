@@ -27,7 +27,7 @@ async def start_handler(event):
     user = await msg_frwd(GetFullUserRequest(event.sender_id))
 
     # Send introductory message
-    await event.reply(f"Hi {user.user.first_name}, I am a message forwarder bot.\nRead /help for more!\n\n(c) @its_xditya")
+    await event.reply(f"Hi {user.user.first_name}, I am a message forwarder bot.\nRead /help for more!\n\n")
 
 # Function to handle "/help" command
 @msg_frwd.on(events.NewMessage(pattern="/help"))
