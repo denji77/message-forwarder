@@ -10,7 +10,7 @@ from telethon.errors.rpcerrorlist import UsernameNotOccupiedError, UserIdInvalid
 logging.basicConfig(format='[%(levelname)s/%(asctime)s] %(name)s: %(message)s', level=logging.WARNING)
 
 # Load API credentials from environment variables
-api_id = config("APP_ID")
+api_id = config("APP_ID", cast=int)
 api_hash = config("API_HASH")
 bot_token = config("BOT_TOKEN")
 
