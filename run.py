@@ -36,7 +36,7 @@ async def help_handler(event):
     Provides instructions on how to use the bot to forward messages between groups.
     """
     # Send help message
-    await event.reply("I forward messages from one group to another.\nAdd me to both the groups first...\nUse `/frwd <to group id/username> <message/reply to message>` to forward the message to that group.\n\n(c) @its_xditya")
+    await event.reply("I forward messages from one group to another.\nAdd me to both the groups first...\nUse `/frwd <to group id/username> <message/reply to message>` to forward the message to that group.\n\n")
 
 # Function to handle "/frwd" command and message forwarding
 @msg_frwd.on(events.NewMessage(pattern="/frwd"))
