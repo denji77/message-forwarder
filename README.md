@@ -9,7 +9,7 @@ This Telegram bot allows you to forward messages from one group to another. It's
 ```bash
 1. Clone the Repository
 git clone https://github.com/denji77/message-forwarder.git
-cd telegram-message-forwarder-bot
+cd message-forwarder
 
 2.Install the required packages by running:
 pip install -r requirements.txt
